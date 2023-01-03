@@ -1,0 +1,10 @@
+# Loads default set of integrations. Do not remove.
+default_config:
+
+# https://www.home-assistant.io/integrations/logger/
+logger:
+  default: error
+
+# https://www.home-assistant.io/integrations/system_log/#max_entries
+system_log:
+  max_entries: 50

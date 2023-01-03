@@ -1,0 +1,12 @@
+.HA_VERSION
+.storage
+backups
+blueprints
+home-assistant.log*
+home-assistant_v2.db*
+.gitkeep
+!.gitignore
+!custom_components/wander_weather
+!*.yaml 
+!*.env
+!*.sh
