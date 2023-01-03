@@ -5,8 +5,9 @@ services:
   homeassistant:
     image: ghcr.io/home-assistant/home-assistant
     container_name: homeassistant
-    network_mode: host
     restart: unless-stopped
     volumes:
       - ./config:/config
     privileged: true
+    ports:
+      - 8123:8123
